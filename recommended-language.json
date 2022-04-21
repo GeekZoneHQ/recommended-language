@@ -1,0 +1,147 @@
+{
+	"meta": {
+		"title": "The Inclusive Naming Initiative Language Recommendation List",
+		"version": "1.0.0"
+	},
+	"wordlist": [{
+			"name": "abort",
+			"tier": 1,
+			"alternatives": "cancel"
+		},
+		{
+			"name": "abortion",
+			"tier": 1,
+			"alternatives": [
+				"cancel",
+				"close",
+				"end",
+				"fail",
+				"force quit",
+				"halt",
+				"hard stop",
+				"stop",
+				"system-initiated termination",
+				"user-initiated termination"
+			]
+		},
+		{
+			"name": "kill",
+			"tier": 1,
+			"alternatives": [
+				"cancel",
+				"close",
+				"end",
+				"fail",
+				"force quit",
+				"halt",
+				"hard stop",
+				"stop",
+				"system-initiated termination",
+				"user-initiated termination"
+			]
+		},
+		{
+			"name": "whitelist",
+			"tier": 1,
+			"alternatives": [
+				"allowlist"
+			]
+		},
+		{
+			"name": "blacklist",
+			"tier": 1,
+			"alternatives": [
+				"denylist"
+			]
+		},
+		{
+			"name": "master",
+			"tier": 1,
+			"alternatives": [
+				"controller",
+				"primary",
+				"main",
+				"parent"
+			]
+		},
+		{
+			"name": "slave",
+			"tier": 1,
+			"alternatives": [
+				"doer",
+				"replica",
+				"secondary",
+				"child"
+			]
+		},
+		{
+			"name": "sanity test",
+			"tier": 2,
+			"alternatives": [
+				"confidence check",
+				"coherence check",
+				"test",
+				"verification"
+			]
+		},
+		{
+			"name": "sanity check",
+			"tier": 2,
+			"alternatives": [
+				"confidence check",
+				"coherence check",
+				"test",
+				"verification"
+			]
+		},
+		{
+			"name": "segregate",
+			"tier": 3,
+			"alternatives": [
+				"segment",
+				"segmentation",
+				"separate",
+				"separation"
+			]
+		},
+		{
+			"name": "segregation",
+			"tier": 3,
+			"alternatives": [
+				"segment",
+				"segmentation",
+				"separate",
+				"separation"
+			]
+		},
+		{
+			"name": "discriminate",
+			"tier": 3,
+			"alternatives": [
+				"segment",
+				"segmentation",
+				"separate",
+				"separation"
+			]
+		},
+		{
+			"name": "discrimination",
+			"tier": 3,
+			"alternatives": [
+				"segment",
+				"segmentation",
+				"separate",
+				"separation"
+			]
+		},
+		{
+			"name": "tribe",
+			"tier": 3,
+			"alternatives": [
+				"squad",
+				"squad of squads",
+				"team"
+			]
+		}
+	]
+}
