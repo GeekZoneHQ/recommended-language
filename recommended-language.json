@@ -5,11 +5,25 @@
 	},
 	"wordlist": [{
 			"name": "abort",
+			"definition": "usually refers to the abnormal, abrupt termination of a process, either by the system itself or by a user",
 			"tier": 1,
-			"alternatives": "cancel"
+			"alternatives": [
+				"cancel",
+				"close",
+				"end",
+				"fail",
+				"force quit",
+				"halt",
+				"hard stop",
+				"stop",
+				"system-initiated termination",
+				"user-initiated termination"
+								],
+				"rationale": "The term 'abort' frequently appeared in Inclusive Language Initiative surveys and standards reviews. Multiple organizations felt that usage of the word posed an issue worth addressing in their individual companies and projects. Given this widespread interest, the INI has decided to offer its own guidance.\n\nINI recommends replacing 'abort' wherever possible. In accordance with the INI’s language framework, the term does not necessarily constitute a first-order concern. However, because it is such a charged term outside of computing, 'abort' fails to provide a clear description of the action being taken, and serves primarily to distract. There are numerous other words in the English language that can serve the same purpose in computing without invoking the emotionally charged cultural context of 'abort.'\n\nAlthough the INI debated whether the word 'abort' itself or the procedure commonly associated with it ('abortion') caused the aforementioned distractions, the etymology of the word has a direct and unambiguous link to the termination of a pregnancy. Alternative uses of the word 'abort' are in use today, such as in rocketry. However, the INI concluded that the term itself was insufficiently distanced from its original meaning for those alternative definitions to be its primary association.\n\nAll this being said, the INI does not advocate for a blanket replacement of the term. 'Abort' appears in many standards organization documents, and is deeply embedded in some operating systems. As such, the INI acknowledges that the term may need to be retained in certain contexts to remain in compliance with those standards, or to preserve accurate documentation for bedrock functions and processes that are too fundamental to be changed.\n\nSome organizations have noted that using 'abort' in contexts other than the medical or political serves to de-stigmatize the term, thereby promoting reproductive rights and bodily autonomy. Conversely, discouraging the term could be interpreted as accepting a framing that denies a pregnant person’s right to control their body. The judgment of the INI is that the term causes discomfort or offense without providing a necessary degree of technical clarity, and therefore it should be avoided. At some future point, because language changes over time, 'abort' may become a less contentious term; at that juncture, the appropriateness of the term may be revisited."
 		},
 		{
 			"name": "abortion",
+			"definition": "usually refers to the abnormal, abrupt termination of a process, either by the system itself or by a user",
 			"tier": 1,
 			"alternatives": [
 				"cancel",
@@ -22,10 +36,12 @@
 				"stop",
 				"system-initiated termination",
 				"user-initiated termination"
-			]
+			],
+			"rationale": "The term 'abort' frequently appeared in Inclusive Language Initiative surveys and standards reviews. Multiple organizations felt that usage of the word posed an issue worth addressing in their individual companies and projects. Given this widespread interest, the INI has decided to offer its own guidance.\n\nINI recommends replacing 'abort' wherever possible. In accordance with the INI’s language framework, the term does not necessarily constitute a first-order concern. However, because it is such a charged term outside of computing, 'abort' fails to provide a clear description of the action being taken, and serves primarily to distract. There are numerous other words in the English language that can serve the same purpose in computing without invoking the emotionally charged cultural context of 'abort.'\n\nAlthough the INI debated whether the word 'abort' itself or the procedure commonly associated with it ('abortion') caused the aforementioned distractions, the etymology of the word has a direct and unambiguous link to the termination of a pregnancy. Alternative uses of the word 'abort' are in use today, such as in rocketry. However, the INI concluded that the term itself was insufficiently distanced from its original meaning for those alternative definitions to be its primary association.\n\nAll this being said, the INI does not advocate for a blanket replacement of the term. 'Abort' appears in many standards organization documents, and is deeply embedded in some operating systems. As such, the INI acknowledges that the term may need to be retained in certain contexts to remain in compliance with those standards, or to preserve accurate documentation for bedrock functions and processes that are too fundamental to be changed.\n\nSome organizations have noted that using 'abort' in contexts other than the medical or political serves to de-stigmatize the term, thereby promoting reproductive rights and bodily autonomy. Conversely, discouraging the term could be interpreted as accepting a framing that denies a pregnant person’s right to control their body. The judgment of the INI is that the term causes discomfort or offense without providing a necessary degree of technical clarity, and therefore it should be avoided. At some future point, because language changes over time, 'abort' may become a less contentious term; at that juncture, the appropriateness of the term may be revisited."
 		},
 		{
 			"name": "kill",
+			"definition": "to stop or end something, usually by force",
 			"tier": 1,
 			"alternatives": [
 				"cancel",
@@ -38,110 +54,133 @@
 				"stop",
 				"system-initiated termination",
 				"user-initiated termination"
-			]
+			],
+			"rationale": ""
 		},
 		{
 			"name": "whitelist",
+			"definition": "a list of approved items",
 			"tier": 1,
 			"alternatives": [
 				"allowlist"
-			]
+			],
+			"rationale": "The underlying assumption of the whitelist/blacklist metaphor is that white = good and black = bad. Because colors in and of themselves have no predetermined meaning, any meaning we assign to them is cultural: for example, the color red in many Southeast Asian countries is lucky, and is often associated with events like marriages, whereas the color white carries the same connotations in many European countries. In the case of whitelist/blacklist, the terms originate in the publishing industry – one dominated by the USA and England, two countries which participated in slavery and which grapple with their racist legacies to this day.\n\nFrom a technical communication perspective, using whitelist/blacklist as a naming convention applies metaphor (and, in turn, unintended meaning) when it isn’t needed. More directly descriptive words like allowlist/denylist enhances understanding. Allowlist/denylist, or simply using allowed/denied as an entity prefix has the added benefit of being easily translatable to other human languages.\n\n"
 		},
 		{
 			"name": "blacklist",
+			"definition": "a list of prohibited items",
 			"tier": 1,
 			"alternatives": [
 				"denylist"
-			]
+			],
+			"rationale": "The underlying assumption of the whitelist/blacklist metaphor is that white = good and black = bad. Because colors in and of themselves have no predetermined meaning, any meaning we assign to them is cultural: for example, the color red in many Southeast Asian countries is lucky, and is often associated with events like marriages, whereas the color white carries the same connotations in many European countries. In the case of whitelist/blacklist, the terms originate in the publishing industry – one dominated by the USA and England, two countries which participated in slavery and which grapple with their racist legacies to this day.\n\nFrom a technical communication perspective, using whitelist/blacklist as a naming convention applies metaphor (and, in turn, unintended meaning) when it isn’t needed. More directly descriptive words like allowlist/denylist enhances understanding. Allowlist/denylist, or simply using allowed/denied as an entity prefix has the added benefit of being easily translatable to other human languages.\n\n"
 		},
 		{
 			"name": "master",
+			"definition": "the original or main version of an entity",
 			"tier": 1,
 			"alternatives": [
 				"controller",
 				"primary",
 				"main",
 				"parent"
-			]
+			],
+			"rationale": "As the IETF puts it, 'Master-slave is an oppressive metaphor that will and should never become fully detached from history.' The word’s origins and historicial use reveal use that is at best chauvinistic and racist, and in almost all cases connotative of ownership. While there is some small ambiguity about the term master, the term slave is unambiguously about the ownership and subjugation of another person, and has been since its inception.\n\nThe terms master/slave are harmful to Black and people of color contributors and employees. Slavery is a tradition barely 3 generations abolished – there are grandparents alive today who were actual, non-metaphorical slaves. Segregation and Apartheid are even more recent. In accordance with most open source codes of conduct and company handbooks, the mandate of all people in a project is to create a welcoming space, regardless of the level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, or nationality. Master/slave are not welcoming words.\n\n"
 		},
 		{
 			"name": "slave",
+			"definition": "an actor that relies on the main entity",
 			"tier": 1,
 			"alternatives": [
 				"doer",
 				"replica",
 				"secondary",
 				"child"
-			]
+			],
+			"rationale": "While master in and of itself is potentially neutral, the propensity in which it is associated with the term slave in computing makes master on its own guilty by association. Though it is used as a standalone, it’s impossible to remove the association with command and control entirely, and thus we recommend moving away from even singular use.\n\n"
 		},
 		{
 			"name": "sanity test",
+			"definition": "a test to determine whether an entity is accurate",
 			"tier": 2,
 			"alternatives": [
 				"confidence check",
 				"coherence check",
 				"test",
 				"verification"
-			]
+			],
+			"rationale": "This term might be derogatory to neurodiverse people. Jargon, such as “sanity test”, is difficult to translate and is difficult to understand by readers whose first language is not English.\n\n"
 		},
 		{
 			"name": "sanity check",
+			"definition": "a test to determine whether an entity is accurate",
 			"tier": 2,
 			"alternatives": [
 				"confidence check",
 				"coherence check",
 				"test",
 				"verification"
-			]
+			],
+			"rationale": "This term might be derogatory to neurodiverse people. Jargon, such as “sanity test”, is difficult to translate and is difficult to understand by readers whose first language is not English.\n\n"
 		},
 		{
 			"name": "segregate",
+			"definition": "to separate into groups",
 			"tier": 3,
 			"alternatives": [
 				"segment",
 				"segmentation",
 				"separate",
 				"separation"
-			]
+			],
+			"rationale": "The word segregation carries strong context in regard to civil rights movements in the US and South Africa, segregation in the US South, and racist history. Though the word appears etymologically neutral at first, Etymonline notes that the term has strong moral contexts prior to US segregation, and after US segregation is almost exclusively associated with the segregation of Black people from White people, an extremely racist context.\n\nThis meets one of the INI’s evaluation framework’s first-order concerns : the term is loaded, problematic, or politically charged outside of technology contexts, even if the language is itself etymologically neutral. As such, we recommend replacing it to remove the distracting, racist, and negative connotations of the word.\n\nWhile the word is in use in security contexts and in GDPR and data protection contexts, it does not appear to be codified into any laws, policies, or other difficult to change or heavily embedded frameworks. Moreover, the replacement terms recommended—'segmentation' and 'separation'—are both equally descriptive and in common use in technology, so we recommend replacing as you see the term.\n\nWe acknowledge that switching from 'segregation' to 'segmentation' or 'separation' loses a small amount of nuance: specifically, 'segregation' implies 'separation' based on a policy or human-defined ruleset. If this is an issue in the context in which you use the word, we recommend using descriptive words along with the replacement, such as 'policy-based segmentation.'\n\n"
 		},
 		{
 			"name": "segregation",
+			"definition": "to separate into groups",
 			"tier": 3,
 			"alternatives": [
 				"segment",
 				"segmentation",
 				"separate",
 				"separation"
-			]
+			],
+			"rationale": "The word segregation carries strong context in regard to civil rights movements in the US and South Africa, segregation in the US South, and racist history. Though the word appears etymologically neutral at first, Etymonline notes that the term has strong moral contexts prior to US segregation, and after US segregation is almost exclusively associated with the segregation of Black people from White people, an extremely racist context.\n\nThis meets one of the INI’s evaluation framework’s first-order concerns : the term is loaded, problematic, or politically charged outside of technology contexts, even if the language is itself etymologically neutral. As such, we recommend replacing it to remove the distracting, racist, and negative connotations of the word.\n\nWhile the word is in use in security contexts and in GDPR and data protection contexts, it does not appear to be codified into any laws, policies, or other difficult to change or heavily embedded frameworks. Moreover, the replacement terms recommended—'segmentation' and 'separation'—are both equally descriptive and in common use in technology, so we recommend replacing as you see the term.\n\nWe acknowledge that switching from 'segregation' to 'segmentation' or 'separation' loses a small amount of nuance: specifically, 'segregation' implies 'separation' based on a policy or human-defined ruleset. If this is an issue in the context in which you use the word, we recommend using descriptive words along with the replacement, such as 'policy-based segmentation.'\n\n"
 		},
 		{
 			"name": "discriminate",
+			"definition": "to separate into groups",
 			"tier": 3,
 			"alternatives": [
 				"segment",
 				"segmentation",
 				"separate",
 				"separation"
-			]
+			],
+			"rationale": ""
 		},
 		{
 			"name": "discrimination",
+			"definition": "to separate into groups",
 			"tier": 3,
 			"alternatives": [
 				"segment",
 				"segmentation",
 				"separate",
 				"separation"
-			]
+			],
+			"rationale": ""
 		},
 		{
 			"name": "tribe",
+			"definition": "a group of people",
 			"tier": 3,
 			"alternatives": [
 				"squad",
 				"squad of squads",
 				"team"
-			]
+			],
+			"rationale": "Can be associated with colonialism or can be considered cultural appropriation. The word has a history of being used to describe division along ethnic or racial lines. As such, choose other words to describe groups of people"
 		}
 	]
 }
